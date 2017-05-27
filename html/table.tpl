@@ -1,0 +1,9 @@
+<table>
+	[$rows]
+		<tr>
+			[$cols]
+				<td>{$content}</td>
+			[/$cols]
+		</tr>
+	[/$rows]
+</table>
