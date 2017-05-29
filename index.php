@@ -3,6 +3,7 @@
 define("PACKAGES", "repo/");
 
 include "div.php";
+include "custom.php";
 
 $u = null;
 
@@ -60,6 +61,7 @@ if ( ! is_null($u))
 				break;
 
             case "doc":
+				header("Content-type: text/html; charset=utf8");
                 div::docsOn();
                 $out = (new div($tpl, $data))."";
                 echo div::getDocsReadable();
