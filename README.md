@@ -1,2 +1,2 @@
-# repo
-Repository of templates for Div PHP Template Engine
+#Code repository for Div Software Solutions
+@divengine/repo
